@@ -54,36 +54,36 @@ For more examples and ideas, visit:
 docker images
 
 REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
-debian                latest              4879790bd60d        3 days ago          101MB
-mamau/apache          1.0                 175aa2628f40        10 days ago         216MB
-amaury/nginx-debian   1.0                 e0cc9621b031        11 days ago         206MB
-nginx                 latest              62f816a209e6        12 days ago         109MB
-ubuntu                16.04               4a689991aa24        4 weeks ago         116MB
-ubuntu                14.04               f216cfb59484        4 weeks ago         188MB
-ubuntu                18.04               ea4c82dcd15a        4 weeks ago         85.8MB
-ubuntu                latest              ea4c82dcd15a        4 weeks ago         85.8MB
-debian                8                   efdec82af25a        4 weeks ago         127MB
-centos                latest              75835a67d134        5 weeks ago         200MB
-hello-world           latest              4ab4c602aa5e        2 months ago        1.84kB
+debian                latest              id_container        3 days ago          101MB
+mamau/apache          1.0                 id_container        10 days ago         216MB
+amaury/nginx-debian   1.0                 id_container        11 days ago         206MB
+nginx                 latest              id_container        12 days ago         109MB
+ubuntu                16.04               id_container        4 weeks ago         116MB
+ubuntu                14.04               id_container        4 weeks ago         188MB
+ubuntu                18.04               id_container        4 weeks ago         85.8MB
+ubuntu                latest              id_container        4 weeks ago         85.8MB
+debian                8                   id_container        4 weeks ago         127MB
+centos                latest              id_container        5 weeks ago         200MB
+hello-world           latest              id_container        2 months ago        1.84kB
 ```
 
 - Outro comando interessante é o `docker ps` que mostra os containers que estão ativos no sistema, veja abaixo:
 ```
 docker ps
 CONTAINER ID    IMAGE         COMMAND          CREATED             STATUS              PORTS               NAMES
-7132f62e1337    debian        "bash"           2 hours ago         Up 2 hours                              quirky_kare
-b9806160cd64    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours                              practical_jang
-75fcd79ff7fa    ubuntu:18.04  "/bin/bash"      24 hours ago        Up 24 hours                             goofy_varahamihira
+id_container    debian        "bash"           2 hours ago         Up 2 hours                              quirky_kare
+id_container    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours                              practical_jang
+id_container    ubuntu:18.04  "/bin/bash"      24 hours ago        Up 24 hours                             goofy_varahamihira
 ```
 
 - Agora irei demonstrar um exemplo de uso do comando `docker exec`:
 ```
-docker exec 7132f62e1337 mkdir /tmp/Amaury
+docker exec id_container mkdir /tmp/Amaury
 ```
 
-- Se acessarmos o container com o comando `docker attach 7132f62e1337`, veremos que o diretório *Amaury* foi criado em /tmp
+- Se acessarmos o container com o comando `docker attach id_container`, veremos que o diretório *Amaury* foi criado em /tmp
 ```
-7132f62e1337:/tmp# ls
+id_container:/tmp# ls
 Amaury
 ```
 
