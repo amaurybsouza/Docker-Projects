@@ -63,6 +63,14 @@ centos                latest              75835a67d134        5 weeks ago       
 hello-world           latest              4ab4c602aa5e        2 months ago        1.84kB
 ```
 
+- Outro comando interessante é o `docker ps` que mostra os containers que estão ativos no sistema, veja abaixo:
+```
+docker ps
+CONTAINER ID    IMAGE         COMMAND          CREATED             STATUS              PORTS               NAMES
+7132f62e1337    debian        "bash"           2 hours ago         Up 2 hours                              quirky_kare
+b9806160cd64    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours                              practical_jang
+75fcd79ff7fa    ubuntu:18.04  "/bin/bash"      24 hours ago        Up 24 hours                             goofy_varahamihira
+```
 
 
 
