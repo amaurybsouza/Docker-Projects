@@ -1,8 +1,11 @@
 ## Principais comandos de Docker
 
 1) Para visualizarmos a versão do Docker instalado em nosso sistema, basta usar o comando `docker --version`
-`docker --version 
- Docker version 18.06.1-ce, build e68fc7a`
+```
+docker --version 
+Docker version 18.06.1-ce, build e68fc7a
+ ```
+ 
 
 
 
