@@ -1,5 +1,9 @@
 ## Um pouquinho de Docker
 
+Pessoal, nessa documentação serei bem direto ao ponto, "na prática mesmo" para que a galera entenda de forma rápida, os comandos sobre essa tecnologia que está facilitando muito os trabalhos dos Dev e Ops.
+
+
+
 1) Para visualizarmos a versão do Docker instalado em nosso sistema, basta usar o comando `docker --version`
 ```
 docker --version 
