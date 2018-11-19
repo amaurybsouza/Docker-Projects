@@ -79,9 +79,9 @@ b9806160cd64    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours   
 - Agora irei demonstrar um exemplo de uso do comando `docker exex`:
 
 Primeiramente, vamos retornar ao container usando o comando `docker attach`
-`
+```
 docker attach 7132f62e1337
-`
+```
 
 
 
