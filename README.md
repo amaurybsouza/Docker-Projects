@@ -81,7 +81,11 @@ b9806160cd64    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours   
 docker exec 7132f62e1337 mkdir /tmp/Amaury
 ```
 
-
+- Se acessarmos o container com o comando `docker attach 7132f62e1337`, veremos que o diretório *Amaury* foi criado em /tmp
+```
+7132f62e1337:/tmp# ls
+Amaury
+```
 
 
 
