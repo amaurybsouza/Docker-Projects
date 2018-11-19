@@ -4,9 +4,15 @@
 ```
 docker --version 
 Docker version 18.06.1-ce, build e68fc7a
- ```
- 
-
+```
+2) Para ver mais informações, basta digitar o comando `docker info`
+```
+docker info 
+Containers: 33
+ Running: 3
+ Paused: 0
+ Stopped: 30
+```
 
 
 
