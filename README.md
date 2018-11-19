@@ -45,6 +45,26 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+4) Mostrando as nossas images que já temos no sistema:
+```
+docker images
+
+REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
+debian                latest              4879790bd60d        3 days ago          101MB
+mamau/apache          1.0                 175aa2628f40        10 days ago         216MB
+amaury/nginx-debian   1.0                 e0cc9621b031        11 days ago         206MB
+nginx                 latest              62f816a209e6        12 days ago         109MB
+ubuntu                16.04               4a689991aa24        4 weeks ago         116MB
+ubuntu                14.04               f216cfb59484        4 weeks ago         188MB
+ubuntu                18.04               ea4c82dcd15a        4 weeks ago         85.8MB
+ubuntu                latest              ea4c82dcd15a        4 weeks ago         85.8MB
+debian                8                   efdec82af25a        4 weeks ago         127MB
+centos                latest              75835a67d134        5 weeks ago         200MB
+hello-world           latest              4ab4c602aa5e        2 months ago        1.84kB
+```
+
+
+
 
 
 ## Agora, um exemplo básico usando Docker
