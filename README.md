@@ -76,12 +76,12 @@ b9806160cd64    ubuntu        "/bin/bash"      2 hours ago         Up 2 hours   
 75fcd79ff7fa    ubuntu:18.04  "/bin/bash"      24 hours ago        Up 24 hours                             goofy_varahamihira
 ```
 
-- Agora irei demonstrar um exemplo de uso do comando `docker exex`:
+- Agora irei demonstrar um exemplo de uso do comando `docker exec`:
+```
+docker exec 7132f62e1337 mkdir /tmp/Amaury
+```
 
-Primeiramente, vamos retornar ao container usando o comando `docker attach`
-```
-docker attach 7132f62e1337
-```
+
 
 
 
