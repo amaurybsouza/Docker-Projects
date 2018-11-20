@@ -87,7 +87,7 @@ id_container:/tmp# ls
 Amaury
 ```
 
-- Uum exemplo de utilização de container, confira abaixo:
+- Um exemplo de utilização de container, confira abaixo:
 ```
 docker run -ti fedora:28 /bin/bash
 ```
