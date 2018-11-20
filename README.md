@@ -92,6 +92,28 @@ Amaury
 docker run -ti fedora:28 /bin/bash
 ```
 
+- Se essa imagem não existir localmente no sistema da minha máquina, ele irá fazer download do repositório do Docker no Docker Hub. Estamos usando apenas um processo, que  o /bin/bash
+
+- Repare que estamos agora dentro do container:
+```
+[root@id_container /]# cat /etc/os-release 
+NAME=Fedora
+VERSION="28 (Twenty Eight)"
+ID=fedora
+VERSION_ID=28
+PLATFORM_ID="platform:f28"
+PRETTY_NAME="Fedora 28 (Twenty Eight)"
+ANSI_COLOR="0;34"
+CPE_NAME="cpe:/o:fedoraproject:fedora:28"
+HOME_URL="https://fedoraproject.org/"
+SUPPORT_URL="https://fedoraproject.org/wiki/Communicating_and_getting_help"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=28
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=28
+PRIVACY_POLICY_URL="https://fedoraproject.org/wiki/Legal:PrivacyPolicy"
+```
 ## Agora, um exemplo básico usando Docker
 
 Para esse primeiro contato com Docker, fiz a criação de um container com Debian 8, instalei o webserver Nginx, para mostrar a execução da página default do Nginx de dentro do container, ficou massa:
