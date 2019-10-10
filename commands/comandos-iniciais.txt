@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+# IMAGES DOCKER
+
+$ docker images (lista as imagens)
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              latest              2ca708c1c9cc        3 weeks ago         64.2MB
+debian              latest              c2c03a296d23        4 weeks ago         114MB
+
+
+$ docker image prune (remove todas as images Docker)
+WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] 
+
+$ docker run -tid --name teste ubuntu (crio um container, com nome teste, e em background)
+
